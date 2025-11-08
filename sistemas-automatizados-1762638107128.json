@@ -1,0 +1,2388 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2025-11-08T21:41:47.122Z",
+  "totalSystems": 100,
+  "categories": [
+    {
+      "id": "marketing-ventas",
+      "name": "Marketing y Ventas",
+      "icon": "📊",
+      "description": "Sistemas automatizados para captura de leads, conversión y gestión de ventas",
+      "systems": [
+        {
+          "id": "mv-001",
+          "name": "🎯 Generador de Landing Pages Automático",
+          "description": "Sistema que crea landing pages optimizadas para conversión usando IA, con A/B testing integrado y análisis de rendimiento en tiempo real.",
+          "functionality": "Automatiza la creación de landing pages, optimiza copywriting, ejecuta A/B tests automáticos y genera reportes de conversión.",
+          "valueProposition": "Reduce el tiempo de creación de landing pages de semanas a minutos, aumenta conversiones en un 35-50% mediante optimización basada en IA.",
+          "price": 97,
+          "useCases": [
+            "Agencias de marketing que necesitan crear múltiples landing pages para clientes",
+            "Emprendedores lanzando nuevos productos digitales",
+            "Equipos de SaaS optimizando páginas de captura de leads",
+            "Consultores digitales escalando su oferta de servicios"
+          ],
+          "n8nNodes": [
+            "HTTP Request",
+            "OpenAI",
+            "Webhook",
+            "Spreadsheet",
+            "Email",
+            "Conditional Logic"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-002",
+          "name": "🔔 Sistema de Seguimiento de Leads Inteligente",
+          "description": "Plataforma que monitorea y clasifica automáticamente leads según su potencial de conversión, enviando notificaciones y asignando prioridades.",
+          "functionality": "Captura leads de múltiples fuentes, clasifica por score de conversión, envía alertas automáticas y asigna a equipos de ventas.",
+          "valueProposition": "Mejora el tiempo de respuesta a leads en un 80%, aumenta la tasa de conversión de leads a clientes en un 45%.",
+          "price": 127,
+          "useCases": [
+            "Equipos de ventas B2B con múltiples fuentes de leads",
+            "Agencias de seguros y servicios financieros",
+            "Empresas de bienes raíces con alto volumen de consultas",
+            "Startups de SaaS en fase de crecimiento"
+          ],
+          "n8nNodes": [
+            "Webhook",
+            "CRM Integration",
+            "AI Classification",
+            "Email",
+            "Slack",
+            "Database"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-003",
+          "name": "💌 Automatizador de Campañas de Email Marketing",
+          "description": "Sistema que diseña, segmenta y ejecuta campañas de email automáticas basadas en comportamiento del usuario y ciclo de vida del cliente.",
+          "functionality": "Crea secuencias de email automáticas, segmenta audiencias, personaliza contenido y optimiza horarios de envío.",
+          "valueProposition": "Aumenta open rates en un 40%, mejora click-through rates en un 55%, reduce tiempo de gestión de campañas en un 90%.",
+          "price": 79,
+          "useCases": [
+            "Ecommerce con necesidad de recuperar carritos abandonados",
+            "Plataformas SaaS con onboarding de usuarios",
+            "Negocios de coaching y educación digital",
+            "Empresas B2B con ciclos de venta largos"
+          ],
+          "n8nNodes": [
+            "Email",
+            "Trigger",
+            "Conditional Logic",
+            "Spreadsheet",
+            "CRM",
+            "Analytics"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-004",
+          "name": "📱 Gestor de Redes Sociales Automatizado",
+          "description": "Plataforma que programa, publica y analiza contenido en múltiples redes sociales, con generación de posts por IA.",
+          "functionality": "Programa posts, genera contenido con IA, analiza engagement, responde comentarios automáticamente.",
+          "valueProposition": "Reduce tiempo de gestión de redes en un 85%, aumenta engagement en un 60%, mantiene presencia consistente 24/7.",
+          "price": 67,
+          "useCases": [
+            "Emprendedores digitales con múltiples canales de redes sociales",
+            "Agencias de marketing gestionando cuentas de múltiples clientes",
+            "Marcas personales de coaches y consultores",
+            "Pequeños negocios sin equipo de marketing dedicado"
+          ],
+          "n8nNodes": [
+            "Social Media API",
+            "Scheduler",
+            "AI Content Generator",
+            "Analytics",
+            "Webhook",
+            "Database"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-005",
+          "name": "🎁 Sistema de Referidos Automático",
+          "description": "Plataforma que gestiona programas de referidos, calcula comisiones automáticamente y distribuye recompensas.",
+          "functionality": "Rastrea referidos, calcula comisiones, envía pagos automáticos, genera reportes de performance.",
+          "valueProposition": "Reduce costos de adquisición de clientes en un 70%, crea un canal de crecimiento viral, automatiza pagos de comisiones.",
+          "price": 89,
+          "useCases": [
+            "Plataformas SaaS buscando crecimiento viral",
+            "Cursos online con afiliados",
+            "Aplicaciones móviles con programas de referidos",
+            "Servicios de suscripción recurrente"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Webhook",
+            "Payment Gateway",
+            "Email",
+            "Spreadsheet",
+            "Analytics"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-006",
+          "name": "🎤 Generador de Webinars Automático",
+          "description": "Sistema que automatiza la creación, promoción y ejecución de webinars, incluyendo recordatorios y seguimiento.",
+          "functionality": "Crea eventos, envía invitaciones automáticas, recordatorios, captura leads y envía replays.",
+          "valueProposition": "Automatiza el 95% del proceso de webinar, captura 300-500 leads por webinar, genera ingresos pasivos con replays.",
+          "price": 147,
+          "useCases": [
+            "Consultores vendiendo servicios de alto valor",
+            "Educadores lanzando cursos online",
+            "Agencias B2B generando leads calificados",
+            "Expertos compartiendo conocimiento monetizado"
+          ],
+          "n8nNodes": [
+            "Webinar Platform API",
+            "Email",
+            "Webhook",
+            "CRM",
+            "Payment",
+            "Database"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-007",
+          "name": "💰 Optimizador de Precios Dinámicos",
+          "description": "Sistema que ajusta precios automáticamente basado en demanda, competencia y comportamiento del cliente.",
+          "functionality": "Monitorea precios competitivos, analiza demanda, ajusta precios dinámicamente, maximiza ingresos.",
+          "valueProposition": "Aumenta ingresos en un 25-40%, optimiza márgenes de ganancia, responde en tiempo real a cambios del mercado.",
+          "price": 199,
+          "useCases": [
+            "Ecommerce con múltiples productos",
+            "Plataformas de viajes y hospedaje",
+            "Servicios de consultoría con precios variables",
+            "Marketplaces con múltiples vendedores"
+          ],
+          "n8nNodes": [
+            "API Integration",
+            "Database",
+            "Analytics",
+            "Webhook",
+            "Conditional Logic",
+            "HTTP Request"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-008",
+          "name": "📊 Dashboard de Ventas en Tiempo Real",
+          "description": "Plataforma que centraliza datos de ventas de múltiples canales y proporciona análisis predictivos.",
+          "functionality": "Integra datos de ventas, crea dashboards visuales, predice tendencias, alerta sobre anomalías.",
+          "valueProposition": "Mejora visibilidad de ventas, identifica oportunidades 48 horas antes, reduce ciclo de decisión.",
+          "price": 157,
+          "useCases": [
+            "Equipos de ventas B2B con múltiples representantes",
+            "Empresas con múltiples canales de venta",
+            "Directivos necesitando visibilidad en tiempo real",
+            "Startups escalando su operación de ventas"
+          ],
+          "n8nNodes": [
+            "Database",
+            "CRM API",
+            "Analytics",
+            "Visualization",
+            "Webhook",
+            "Email"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-009",
+          "name": "🤝 Generador de Propuestas Automático",
+          "description": "Sistema que crea propuestas personalizadas automáticamente basadas en datos del cliente y plantillas.",
+          "functionality": "Genera propuestas personalizadas, calcula presupuestos, envía para firma electrónica, rastrea aceptación.",
+          "valueProposition": "Reduce tiempo de creación de propuestas en un 90%, aumenta tasa de aceptación en un 35%, acelera ciclo de venta.",
+          "price": 109,
+          "useCases": [
+            "Agencias de servicios profesionales",
+            "Consultores independientes",
+            "Empresas B2B con ciclos de venta largos",
+            "Equipos de ventas con alto volumen de propuestas"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Document Generator",
+            "Email",
+            "E-signature",
+            "CRM",
+            "Webhook"
+          ],
+          "category": "marketing-ventas"
+        },
+        {
+          "id": "mv-010",
+          "name": "🎯 Chatbot de Ventas Inteligente",
+          "description": "IA conversacional que califica leads, responde preguntas de productos y programa demostraciones automáticamente.",
+          "functionality": "Responde preguntas 24/7, califica leads, programa demostraciones, transfiere a agentes cuando es necesario.",
+          "valueProposition": "Disponibilidad 24/7, califica leads automáticamente, reduce carga de trabajo del equipo de ventas en un 60%.",
+          "price": 139,
+          "useCases": [
+            "Ecommerce con alto volumen de consultas",
+            "SaaS buscando automatizar calificación de leads",
+            "Agencias vendiendo servicios de consultoría",
+            "Empresas con múltiples zonas horarias"
+          ],
+          "n8nNodes": [
+            "AI/Chatbot",
+            "Webhook",
+            "CRM",
+            "Database",
+            "Email",
+            "Conditional Logic"
+          ],
+          "category": "marketing-ventas"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-retail",
+      "name": "E-commerce y Retail",
+      "icon": "🛍️",
+      "description": "Sistemas para automatizar operaciones de tiendas online, gestión de inventario y fulfillment",
+      "systems": [
+        {
+          "id": "er-001",
+          "name": "📦 Gestor de Inventario Inteligente",
+          "description": "Sistema que monitorea inventario en tiempo real, predice demanda y automatiza reordenes.",
+          "functionality": "Rastrea stock en múltiples ubicaciones, predice demanda con IA, automatiza órdenes de compra, alerta sobre faltantes.",
+          "valueProposition": "Reduce stockouts en un 85%, minimiza overstock en un 60%, libera capital de trabajo en un 40%.",
+          "price": 119,
+          "useCases": [
+            "Tiendas online con múltiples almacenes",
+            "Negocios de retail con múltiples sucursales",
+            "Distribuidores con múltiples proveedores",
+            "Marketplaces con múltiples vendedores"
+          ],
+          "n8nNodes": [
+            "Database",
+            "API Integration",
+            "AI Prediction",
+            "Email",
+            "Webhook",
+            "Spreadsheet"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-002",
+          "name": "🚚 Automatizador de Fulfillment",
+          "description": "Plataforma que automatiza el proceso completo de empaque, etiquetado y envío de órdenes.",
+          "functionality": "Recibe órdenes, genera etiquetas de envío, coordina con transportistas, actualiza clientes automáticamente.",
+          "valueProposition": "Reduce tiempo de fulfillment en un 75%, minimiza errores de envío en un 95%, mejora experiencia del cliente.",
+          "price": 149,
+          "useCases": [
+            "Ecommerce de rápido crecimiento",
+            "Tiendas de dropshipping",
+            "Marketplaces de múltiples vendedores",
+            "Negocios de venta por catálogo"
+          ],
+          "n8nNodes": [
+            "Order Management",
+            "Shipping API",
+            "Label Generator",
+            "Email",
+            "Database",
+            "Webhook"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-003",
+          "name": "💳 Sistema de Recuperación de Carritos Abandonados",
+          "description": "Plataforma que rastrea carritos abandonados y ejecuta campañas automáticas de recuperación.",
+          "functionality": "Rastrea carritos abandonados, envía recordatorios automáticos, ofrece descuentos, rastrea conversión.",
+          "valueProposition": "Recupera el 30-40% de carritos abandonados, aumenta ingresos sin adquisición de nuevos clientes.",
+          "price": 67,
+          "useCases": [
+            "Tiendas online con alto tráfico",
+            "Negocios de moda y accesorios",
+            "Plataformas de electrónica",
+            "Cualquier ecommerce con conversión < 3%"
+          ],
+          "n8nNodes": [
+            "Ecommerce Platform API",
+            "Email",
+            "Webhook",
+            "Database",
+            "Conditional Logic",
+            "Analytics"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-004",
+          "name": "⭐ Gestor de Reseñas y Testimonios",
+          "description": "Sistema que solicita automáticamente reseñas, las publica en múltiples plataformas y gestiona respuestas.",
+          "functionality": "Solicita reseñas post-compra, publica en Google/Trustpilot, responde automáticamente, rastrea sentimiento.",
+          "valueProposition": "Aumenta reseñas en un 300%, mejora rating en un 0.5-1.0 puntos, aumenta confianza de nuevos clientes.",
+          "price": 79,
+          "useCases": [
+            "Ecommerce buscando mejorar reputación online",
+            "Negocios locales con presencia en Google Maps",
+            "Servicios B2B con ciclos de venta largos",
+            "Cualquier negocio donde la confianza es crítica"
+          ],
+          "n8nNodes": [
+            "Email",
+            "Review Platform API",
+            "Webhook",
+            "Sentiment Analysis",
+            "Database",
+            "Conditional Logic"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-005",
+          "name": "🎨 Generador de Catálogos Automático",
+          "description": "Sistema que crea catálogos visuales automáticamente a partir de datos de productos.",
+          "functionality": "Genera catálogos en múltiples formatos, optimiza imágenes, crea descripciones con IA, distribuye automáticamente.",
+          "valueProposition": "Reduce tiempo de creación de catálogos en un 95%, mantiene catálogos actualizados automáticamente.",
+          "price": 89,
+          "useCases": [
+            "Distribuidores con múltiples catálogos",
+            "Tiendas online con miles de productos",
+            "Negocios B2B con catálogos complejos",
+            "Marketplaces con múltiples vendedores"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Image Processing",
+            "AI Content Generator",
+            "PDF Generator",
+            "Email",
+            "Webhook"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-006",
+          "name": "💰 Optimizador de Márgenes de Ganancia",
+          "description": "Plataforma que analiza costos, calcula márgenes óptimos y automatiza ajustes de precios.",
+          "functionality": "Analiza costos de productos, calcula márgenes, identifica productos no rentables, sugiere ajustes de precio.",
+          "valueProposition": "Aumenta márgenes de ganancia en un 15-25%, identifica productos no rentables, optimiza mix de productos.",
+          "price": 129,
+          "useCases": [
+            "Tiendas online con múltiples productos",
+            "Distribuidores con márgenes ajustados",
+            "Negocios de retail tradicional digitalizándose",
+            "Empresas buscando mejorar rentabilidad"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Spreadsheet",
+            "Analytics",
+            "Webhook",
+            "Conditional Logic",
+            "Email"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-007",
+          "name": "🔄 Sistema de Devoluciones Automático",
+          "description": "Plataforma que gestiona automáticamente el proceso completo de devoluciones y reembolsos.",
+          "functionality": "Procesa solicitudes de devolución, genera etiquetas de retorno, procesa reembolsos, actualiza inventario.",
+          "valueProposition": "Reduce tiempo de procesamiento de devoluciones en un 80%, mejora satisfacción del cliente, reduce fraude.",
+          "price": 99,
+          "useCases": [
+            "Tiendas online con altos volúmenes de devoluciones",
+            "Negocios de moda con tasa de devolución alta",
+            "Plataformas que compiten en servicio al cliente",
+            "Empresas buscando reducir costos de devoluciones"
+          ],
+          "n8nNodes": [
+            "Ecommerce API",
+            "Shipping API",
+            "Payment Gateway",
+            "Database",
+            "Email",
+            "Webhook"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-008",
+          "name": "📊 Analytics de Comportamiento de Compra",
+          "description": "Sistema que analiza patrones de compra y genera insights para optimizar estrategia de ventas.",
+          "functionality": "Rastrea comportamiento de compra, identifica patrones, predice tendencias, sugiere estrategias de venta.",
+          "valueProposition": "Identifica oportunidades de cross-sell/upsell, mejora tasa de conversión en un 20-30%, optimiza mix de productos.",
+          "price": 139,
+          "useCases": [
+            "Tiendas online buscando optimizar conversión",
+            "Negocios de suscripción analizando churn",
+            "Empresas B2B entendiendo ciclos de compra",
+            "Retailers digitales optimizando estrategia"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Analytics",
+            "AI Analysis",
+            "Visualization",
+            "Email",
+            "Webhook"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-009",
+          "name": "🎯 Gestor de Promociones Dinámicas",
+          "description": "Sistema que crea y ejecuta promociones automáticas basadas en comportamiento del cliente.",
+          "functionality": "Crea promociones personalizadas, ejecuta automáticamente, rastrea ROI, optimiza descuentos.",
+          "valueProposition": "Aumenta conversión en un 25-35%, maximiza ROI de promociones, reduce descuentos innecesarios.",
+          "price": 109,
+          "useCases": [
+            "Tiendas online con temporadas de venta",
+            "Negocios de suscripción buscando retención",
+            "Ecommerce competitivo en precio",
+            "Retailers digitales con múltiples segmentos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Conditional Logic",
+            "Email",
+            "Webhook",
+            "Analytics",
+            "Spreadsheet"
+          ],
+          "category": "ecommerce-retail"
+        },
+        {
+          "id": "er-010",
+          "name": "🌐 Sincronizador de Múltiples Canales",
+          "description": "Plataforma que sincroniza inventario, precios y órdenes entre múltiples canales de venta.",
+          "functionality": "Sincroniza inventario en tiempo real, unifica órdenes, centraliza datos, evita sobreventa.",
+          "valueProposition": "Evita sobreventa, reduce errores en un 99%, centraliza operaciones, escala a múltiples canales.",
+          "price": 179,
+          "useCases": [
+            "Negocios vendiendo en Shopify, Amazon, eBay simultáneamente",
+            "Retailers con tienda física y online",
+            "Distribuidores con múltiples canales",
+            "Empresas escalando a nuevos mercados"
+          ],
+          "n8nNodes": [
+            "Multiple Platform APIs",
+            "Database",
+            "Webhook",
+            "Conditional Logic",
+            "Email",
+            "Spreadsheet"
+          ],
+          "category": "ecommerce-retail"
+        }
+      ]
+    },
+    {
+      "id": "contenido-redes",
+      "name": "Contenido y Redes Sociales",
+      "icon": "📱",
+      "description": "Sistemas para crear, distribuir y monetizar contenido digital",
+      "systems": [
+        {
+          "id": "cr-001",
+          "name": "✍️ Generador de Contenido con IA",
+          "description": "Plataforma que genera contenido de alta calidad automáticamente usando IA avanzada.",
+          "functionality": "Genera posts, artículos, scripts de video, descripciones de productos usando IA, optimiza para SEO.",
+          "valueProposition": "Produce 10x más contenido en 1/10 del tiempo, mantiene consistencia de marca, optimiza para engagement.",
+          "price": 79,
+          "useCases": [
+            "Creadores de contenido escalando producción",
+            "Agencias de marketing gestionando múltiples clientes",
+            "Bloggers buscando consistencia de publicación",
+            "Emprendedores sin equipo de contenido"
+          ],
+          "n8nNodes": [
+            "AI Content Generator",
+            "Webhook",
+            "Database",
+            "Email",
+            "Spreadsheet",
+            "Conditional Logic"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-002",
+          "name": "📹 Convertidor de Contenido Multi-formato",
+          "description": "Sistema que transforma un contenido en múltiples formatos (blog, video, podcast, infografía).",
+          "functionality": "Convierte artículos en videos, podcasts, infografías, posts de redes, optimiza para cada plataforma.",
+          "valueProposition": "Multiplica alcance de contenido por 5x, reduce tiempo de producción en un 80%, maximiza ROI de contenido.",
+          "price": 119,
+          "useCases": [
+            "Creadores de contenido maximizando alcance",
+            "Educadores digitales con múltiples formatos",
+            "Podcasters expandiendo a video y blog",
+            "Marcas personales con presencia omnicanal"
+          ],
+          "n8nNodes": [
+            "Video Generator",
+            "Audio Generator",
+            "Text Processing",
+            "Image Generator",
+            "Webhook",
+            "Database"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-003",
+          "name": "🎬 Automatizador de Edición de Video",
+          "description": "Plataforma que edita automáticamente videos, añade subtítulos, efectos y optimiza para cada plataforma.",
+          "functionality": "Edita videos automáticamente, añade subtítulos, crea clips cortos, optimiza para TikTok/Instagram/YouTube.",
+          "valueProposition": "Reduce tiempo de edición en un 90%, crea múltiples versiones de un video, optimiza para cada plataforma.",
+          "price": 149,
+          "useCases": [
+            "Creadores de YouTube escalando producción",
+            "Marcas en TikTok/Instagram generando contenido",
+            "Educadores digitales con múltiples videos",
+            "Agencias de video produciendo en volumen"
+          ],
+          "n8nNodes": [
+            "Video Editor",
+            "Subtitle Generator",
+            "Webhook",
+            "Database",
+            "Email",
+            "Conditional Logic"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-004",
+          "name": "📊 Analizador de Tendencias de Contenido",
+          "description": "Sistema que identifica tendencias emergentes y sugiere temas de contenido con alto potencial.",
+          "functionality": "Monitorea tendencias, analiza competencia, sugiere temas, predice viralidad, rastrea performance.",
+          "valueProposition": "Identifica tendencias 2-4 semanas antes que la competencia, aumenta virality en un 200-300%.",
+          "price": 99,
+          "useCases": [
+            "Creadores de contenido buscando relevancia",
+            "Agencias de marketing para múltiples clientes",
+            "Influencers optimizando estrategia de contenido",
+            "Marcas personales escalando audiencia"
+          ],
+          "n8nNodes": [
+            "API Integration",
+            "Analytics",
+            "AI Analysis",
+            "Database",
+            "Email",
+            "Webhook"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-005",
+          "name": "💬 Gestor de Comunidad Automático",
+          "description": "Plataforma que gestiona comunidades online, responde preguntas y fomenta engagement automáticamente.",
+          "functionality": "Responde comentarios, modera contenido, identifica miembros VIP, facilita discusiones, rastrea sentimiento.",
+          "valueProposition": "Reduce tiempo de gestión de comunidad en un 70%, mejora engagement en un 50%, crea comunidad leal.",
+          "price": 109,
+          "useCases": [
+            "Creadores con comunidades grandes",
+            "Educadores con grupos de estudiantes",
+            "Marcas con comunidades de clientes",
+            "Emprendedores construyendo tribu"
+          ],
+          "n8nNodes": [
+            "Discord/Slack API",
+            "AI Moderation",
+            "Webhook",
+            "Database",
+            "Email",
+            "Conditional Logic"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-006",
+          "name": "🎙️ Generador de Podcast Automático",
+          "description": "Sistema que convierte artículos en episodios de podcast con voz natural y distribución automática.",
+          "functionality": "Convierte texto a audio, genera episodios, distribuye a Spotify/Apple, crea transcripciones, rastrea escuchas.",
+          "valueProposition": "Crea podcasts sin equipamiento costoso, llega a nuevas audiencias, genera ingresos por publicidad.",
+          "price": 129,
+          "useCases": [
+            "Bloggers expandiendo a podcast",
+            "Educadores digitales con múltiples formatos",
+            "Marcas personales construyendo autoridad",
+            "Empresas con contenido educativo"
+          ],
+          "n8nNodes": [
+            "Text-to-Speech",
+            "Audio Editor",
+            "Podcast Platform API",
+            "Email",
+            "Database",
+            "Webhook"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-007",
+          "name": "🔍 Optimizador de SEO Automático",
+          "description": "Plataforma que optimiza contenido automáticamente para SEO, rastrea rankings y sugiere mejoras.",
+          "functionality": "Optimiza palabras clave, mejora meta tags, rastrea rankings, identifica oportunidades de backlinks.",
+          "valueProposition": "Aumenta tráfico orgánico en un 150-300%, mejora rankings en 3-6 meses, reduce costo de tráfico.",
+          "price": 89,
+          "useCases": [
+            "Bloggers buscando tráfico orgánico",
+            "Agencias de marketing para clientes",
+            "Ecommerce optimizando visibilidad",
+            "Negocios locales en búsqueda local"
+          ],
+          "n8nNodes": [
+            "SEO API",
+            "Analytics",
+            "Database",
+            "Email",
+            "Webhook",
+            "Conditional Logic"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-008",
+          "name": "📸 Generador de Imágenes para Redes Sociales",
+          "description": "Sistema que crea imágenes visuales automáticamente optimizadas para cada red social.",
+          "functionality": "Genera imágenes con IA, optimiza dimensiones, aplica branding, crea variaciones, distribuye automáticamente.",
+          "valueProposition": "Crea imágenes profesionales sin diseñador, mantiene consistencia de marca, aumenta engagement visual.",
+          "price": 67,
+          "useCases": [
+            "Creadores de contenido sin equipo de diseño",
+            "Agencias gestionando múltiples clientes",
+            "Ecommerce con miles de productos",
+            "Marcas personales construyendo presencia"
+          ],
+          "n8nNodes": [
+            "Image Generator",
+            "Image Editor",
+            "Database",
+            "Webhook",
+            "Email",
+            "Conditional Logic"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-009",
+          "name": "💰 Monetizador de Contenido",
+          "description": "Plataforma que identifica oportunidades de monetización y automatiza la generación de ingresos.",
+          "functionality": "Integra publicidad, afiliados, membresía, productos digitales, rastrea ingresos, optimiza mix de monetización.",
+          "valueProposition": "Aumenta ingresos de contenido en un 300-500%, diversifica fuentes de ingresos, automatiza cobros.",
+          "price": 139,
+          "useCases": [
+            "Creadores de contenido escalando ingresos",
+            "Bloggers monetizando tráfico",
+            "YouTubers diversificando ingresos",
+            "Educadores vendiendo productos digitales"
+          ],
+          "n8nNodes": [
+            "Payment Gateway",
+            "Ad Network API",
+            "Database",
+            "Email",
+            "Analytics",
+            "Webhook"
+          ],
+          "category": "contenido-redes"
+        },
+        {
+          "id": "cr-010",
+          "name": "🎯 Gestor de Influencers y Colaboraciones",
+          "description": "Sistema que identifica influencers relevantes, gestiona colaboraciones y rastrea ROI.",
+          "functionality": "Identifica influencers, negocia colaboraciones, rastrea menciones, mide ROI, automatiza pagos.",
+          "valueProposition": "Reduce tiempo de búsqueda de influencers en un 95%, asegura ROI positivo, escala colaboraciones.",
+          "price": 159,
+          "useCases": [
+            "Marcas lanzando productos",
+            "Agencias gestionando campañas de influencers",
+            "Startups con presupuesto limitado",
+            "Empresas buscando crecimiento viral"
+          ],
+          "n8nNodes": [
+            "Social Media API",
+            "Database",
+            "Email",
+            "Payment Gateway",
+            "Analytics",
+            "Webhook"
+          ],
+          "category": "contenido-redes"
+        }
+      ]
+    },
+    {
+      "id": "productividad-gestion",
+      "name": "Productividad y Gestión",
+      "icon": "⚙️",
+      "description": "Sistemas para automatizar procesos internos y mejorar productividad",
+      "systems": [
+        {
+          "id": "pg-001",
+          "name": "📋 Automatizador de Flujos de Trabajo",
+          "description": "Plataforma que automatiza procesos repetitivos y crea flujos de trabajo inteligentes.",
+          "functionality": "Automatiza tareas repetitivas, crea flujos condicionales, integra múltiples herramientas, rastrea progreso.",
+          "valueProposition": "Reduce tiempo en tareas repetitivas en un 80%, libera 10+ horas semanales por empleado, mejora consistencia.",
+          "price": 97,
+          "useCases": [
+            "Equipos pequeños sin presupuesto para herramientas caras",
+            "Empresas con procesos manuales repetitivos",
+            "Startups escalando operaciones",
+            "Departamentos buscando eficiencia"
+          ],
+          "n8nNodes": [
+            "Trigger",
+            "Conditional Logic",
+            "Data Transform",
+            "Multiple Integrations",
+            "Email",
+            "Webhook"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-002",
+          "name": "📅 Gestor de Proyectos Inteligente",
+          "description": "Sistema que gestiona proyectos automáticamente, asigna tareas y rastrea progreso.",
+          "functionality": "Crea proyectos, asigna tareas automáticamente, rastrea progreso, predice retrasos, genera reportes.",
+          "valueProposition": "Mejora cumplimiento de deadlines en un 40%, reduce tiempo de gestión en un 60%, mejora transparencia.",
+          "price": 119,
+          "useCases": [
+            "Agencias de servicios con múltiples proyectos",
+            "Equipos de desarrollo de software",
+            "Empresas de consultoría",
+            "Cualquier equipo con múltiples proyectos simultáneos"
+          ],
+          "n8nNodes": [
+            "Project Management API",
+            "Email",
+            "Webhook",
+            "Database",
+            "Conditional Logic",
+            "Notification"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-003",
+          "name": "⏱️ Rastreador de Tiempo Automático",
+          "description": "Plataforma que rastrea automáticamente tiempo dedicado a tareas sin intervención manual.",
+          "functionality": "Rastrea tiempo automáticamente, categoriza actividades, genera reportes, identifica ineficiencias.",
+          "valueProposition": "Mejora precisión de facturación en un 95%, identifica cuellos de botella, mejora productividad en un 25%.",
+          "price": 67,
+          "useCases": [
+            "Agencias facturando por horas",
+            "Consultores independientes",
+            "Equipos remotos mejorando productividad",
+            "Empresas analizando costo de proyectos"
+          ],
+          "n8nNodes": [
+            "Activity Monitor",
+            "Database",
+            "Email",
+            "Analytics",
+            "Webhook",
+            "Spreadsheet"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-004",
+          "name": "📞 Gestor de Reuniones Automático",
+          "description": "Sistema que programa reuniones, genera agendas y crea actas automáticamente.",
+          "functionality": "Programa reuniones, sincroniza calendarios, genera agendas, crea actas, distribuye automáticamente.",
+          "valueProposition": "Reduce tiempo de coordinación en un 80%, asegura seguimiento de acuerdos, mejora productividad.",
+          "price": 79,
+          "useCases": [
+            "Ejecutivos con muchas reuniones",
+            "Equipos distribuidos en múltiples zonas horarias",
+            "Empresas con reuniones frecuentes",
+            "Consultores coordinando con clientes"
+          ],
+          "n8nNodes": [
+            "Calendar API",
+            "Email",
+            "Webhook",
+            "Transcription",
+            "Database",
+            "Notification"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-005",
+          "name": "📊 Generador de Reportes Automático",
+          "description": "Plataforma que genera reportes automáticamente a partir de datos de múltiples fuentes.",
+          "functionality": "Recopila datos, crea reportes visuales, distribuye automáticamente, rastrea métricas clave.",
+          "valueProposition": "Reduce tiempo de reportes en un 90%, asegura consistencia, facilita toma de decisiones.",
+          "price": 89,
+          "useCases": [
+            "Directivos necesitando reportes regulares",
+            "Equipos de marketing midiendo performance",
+            "Empresas con múltiples departamentos",
+            "Consultores presentando resultados a clientes"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Analytics",
+            "Report Generator",
+            "Email",
+            "Webhook",
+            "Spreadsheet"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-006",
+          "name": "💬 Centralizador de Comunicación",
+          "description": "Sistema que centraliza comunicación de múltiples canales en una sola plataforma.",
+          "functionality": "Integra email, Slack, Teams, SMS, rastrea conversaciones, prioriza mensajes, asigna automáticamente.",
+          "valueProposition": "Reduce tiempo de gestión de comunicación en un 70%, asegura no se pierdan mensajes, mejora respuesta.",
+          "price": 109,
+          "useCases": [
+            "Equipos con múltiples canales de comunicación",
+            "Empresas de servicio al cliente",
+            "Agencias coordinando con clientes",
+            "Equipos remotos distribuidos"
+          ],
+          "n8nNodes": [
+            "Email API",
+            "Slack API",
+            "Teams API",
+            "SMS API",
+            "Database",
+            "Webhook"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-007",
+          "name": "🎯 Gestor de Objetivos y KPIs",
+          "description": "Plataforma que define objetivos, rastrea KPIs y alerta sobre desviaciones.",
+          "functionality": "Define objetivos, rastrea KPIs en tiempo real, alerta sobre desviaciones, genera reportes de progreso.",
+          "valueProposition": "Mejora alineación de equipo en un 60%, acelera toma de decisiones, asegura cumplimiento de objetivos.",
+          "price": 129,
+          "useCases": [
+            "Empresas con múltiples departamentos",
+            "Startups escalando rápidamente",
+            "Equipos de ventas con objetivos",
+            "Directivos monitoreando performance"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Analytics",
+            "Email",
+            "Webhook",
+            "Conditional Logic",
+            "Notification"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-008",
+          "name": "📝 Gestor de Documentos Inteligente",
+          "description": "Sistema que organiza, rastrea versiones y facilita colaboración en documentos.",
+          "functionality": "Organiza documentos, rastrea versiones, facilita colaboración, busca contenido, genera índices automáticamente.",
+          "valueProposition": "Reduce tiempo de búsqueda en un 80%, asegura versión correcta, facilita colaboración remota.",
+          "price": 79,
+          "useCases": [
+            "Equipos con muchos documentos",
+            "Empresas con múltiples proyectos",
+            "Equipos remotos colaborando",
+            "Organizaciones con documentación compleja"
+          ],
+          "n8nNodes": [
+            "Document Storage API",
+            "Search",
+            "Database",
+            "Email",
+            "Webhook",
+            "Notification"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-009",
+          "name": "🔐 Gestor de Accesos y Permisos",
+          "description": "Plataforma que gestiona accesos a sistemas y recursos automáticamente.",
+          "functionality": "Gestiona permisos, audita accesos, revoca accesos automáticamente, rastrea cambios.",
+          "valueProposition": "Mejora seguridad, reduce riesgo de acceso no autorizado, simplifica onboarding/offboarding.",
+          "price": 99,
+          "useCases": [
+            "Empresas con múltiples sistemas",
+            "Organizaciones con requisitos de compliance",
+            "Equipos con alta rotación",
+            "Empresas preocupadas por seguridad"
+          ],
+          "n8nNodes": [
+            "Identity Management API",
+            "Database",
+            "Email",
+            "Webhook",
+            "Audit Log",
+            "Conditional Logic"
+          ],
+          "category": "productividad-gestion"
+        },
+        {
+          "id": "pg-010",
+          "name": "🚀 Automatizador de Onboarding",
+          "description": "Sistema que automatiza el proceso completo de onboarding de nuevos empleados.",
+          "functionality": "Crea cuentas, asigna recursos, envía documentación, programa entrenamientos, rastrea progreso.",
+          "valueProposition": "Reduce tiempo de onboarding en un 75%, mejora experiencia del nuevo empleado, asegura cumplimiento.",
+          "price": 139,
+          "useCases": [
+            "Empresas en crecimiento rápido",
+            "Organizaciones con alta rotación",
+            "Equipos remotos distribuidos",
+            "Empresas con procesos complejos de onboarding"
+          ],
+          "n8nNodes": [
+            "Email",
+            "Webhook",
+            "Database",
+            "Identity Management",
+            "Document Generator",
+            "Notification"
+          ],
+          "category": "productividad-gestion"
+        }
+      ]
+    },
+    {
+      "id": "educacion-formacion",
+      "name": "Educación y Formación",
+      "icon": "🎓",
+      "description": "Sistemas para crear, distribuir y monetizar contenido educativo",
+      "systems": [
+        {
+          "id": "ef-001",
+          "name": "🎬 Plataforma de Cursos Online Automática",
+          "description": "Sistema que crea y gestiona cursos online automáticamente con todo incluido.",
+          "functionality": "Crea cursos, gestiona estudiantes, genera certificados, rastrea progreso, automatiza cobros.",
+          "valueProposition": "Lanza cursos en días no semanas, automatiza 95% de la gestión, genera ingresos pasivos.",
+          "price": 149,
+          "useCases": [
+            "Expertos monetizando conocimiento",
+            "Educadores escalando a múltiples estudiantes",
+            "Empresas entrenando clientes",
+            "Consultores vendiendo formación"
+          ],
+          "n8nNodes": [
+            "Course Platform API",
+            "Email",
+            "Payment Gateway",
+            "Database",
+            "Webhook",
+            "Certificate Generator"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-002",
+          "name": "📚 Generador de Contenido Educativo",
+          "description": "Plataforma que crea contenido educativo automáticamente usando IA.",
+          "functionality": "Genera lecciones, crea ejercicios, genera preguntas de examen, crea materiales de estudio.",
+          "valueProposition": "Crea contenido educativo 10x más rápido, asegura calidad consistente, optimiza para aprendizaje.",
+          "price": 99,
+          "useCases": [
+            "Educadores creando múltiples cursos",
+            "Instituciones educativas digitalizándose",
+            "Empresas creando programas de capacitación",
+            "Autores de libros expandiendo a cursos"
+          ],
+          "n8nNodes": [
+            "AI Content Generator",
+            "Database",
+            "Email",
+            "Webhook",
+            "Document Generator",
+            "Spreadsheet"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-003",
+          "name": "🎯 Sistema de Evaluación Automático",
+          "description": "Plataforma que crea, califica y analiza evaluaciones automáticamente.",
+          "functionality": "Crea evaluaciones, califica automáticamente, identifica áreas débiles, sugiere mejoras.",
+          "valueProposition": "Reduce tiempo de calificación en un 95%, proporciona feedback inmediato, mejora aprendizaje.",
+          "price": 79,
+          "useCases": [
+            "Educadores con muchos estudiantes",
+            "Instituciones educativas",
+            "Empresas con programas de capacitación",
+            "Plataformas de aprendizaje online"
+          ],
+          "n8nNodes": [
+            "Database",
+            "AI Grading",
+            "Email",
+            "Webhook",
+            "Analytics",
+            "Conditional Logic"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-004",
+          "name": "👥 Gestor de Comunidad de Aprendizaje",
+          "description": "Sistema que crea y gestiona comunidades de estudiantes con interacción automática.",
+          "functionality": "Facilita discusiones, responde preguntas automáticamente, crea grupos de estudio, rastrea engagement.",
+          "valueProposition": "Mejora retención de estudiantes en un 50%, crea comunidad leal, reduce carga de trabajo.",
+          "price": 109,
+          "useCases": [
+            "Cursos online con muchos estudiantes",
+            "Programas de mentoría",
+            "Comunidades de aprendizaje",
+            "Plataformas educativas escalando"
+          ],
+          "n8nNodes": [
+            "Community Platform API",
+            "AI Moderation",
+            "Email",
+            "Webhook",
+            "Database",
+            "Notification"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-005",
+          "name": "📊 Analytics de Aprendizaje",
+          "description": "Plataforma que analiza patrones de aprendizaje e identifica estudiantes en riesgo.",
+          "functionality": "Rastrea progreso, identifica estudiantes en riesgo, sugiere intervenciones, predice éxito.",
+          "valueProposition": "Mejora tasa de completación en un 40%, identifica problemas temprano, personaliza aprendizaje.",
+          "price": 119,
+          "useCases": [
+            "Instituciones educativas mejorando resultados",
+            "Plataformas de aprendizaje online",
+            "Programas de capacitación corporativa",
+            "Educadores personalizando enseñanza"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Analytics",
+            "AI Analysis",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-006",
+          "name": "🎓 Generador de Certificados Automático",
+          "description": "Sistema que crea y emite certificados automáticamente al completar cursos.",
+          "functionality": "Crea certificados personalizados, valida completación, emite automáticamente, rastrea certificados.",
+          "valueProposition": "Añade valor a cursos, facilita verificación de credenciales, automatiza proceso.",
+          "price": 67,
+          "useCases": [
+            "Cursos online profesionales",
+            "Programas de capacitación corporativa",
+            "Instituciones educativas",
+            "Plataformas de certificación"
+          ],
+          "n8nNodes": [
+            "Certificate Generator",
+            "Email",
+            "Database",
+            "Webhook",
+            "PDF Generator",
+            "Conditional Logic"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-007",
+          "name": "💰 Monetizador de Educación",
+          "description": "Plataforma que crea múltiples flujos de ingresos a partir de contenido educativo.",
+          "functionality": "Integra pagos, membresía, afiliados, productos digitales, rastrea ingresos.",
+          "valueProposition": "Aumenta ingresos educativos en un 300-500%, diversifica fuentes, automatiza cobros.",
+          "price": 139,
+          "useCases": [
+            "Educadores monetizando cursos",
+            "Instituciones vendiendo formación",
+            "Expertos creando academias online",
+            "Consultores escalando a educación"
+          ],
+          "n8nNodes": [
+            "Payment Gateway",
+            "Membership API",
+            "Email",
+            "Database",
+            "Analytics",
+            "Webhook"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-008",
+          "name": "🔄 Gestor de Actualizaciones de Contenido",
+          "description": "Sistema que mantiene contenido educativo actualizado automáticamente.",
+          "functionality": "Rastrea cambios en industria, sugiere actualizaciones, crea nuevas versiones, notifica estudiantes.",
+          "valueProposition": "Mantiene contenido relevante, mejora valor percibido, reduce obsolescencia.",
+          "price": 89,
+          "useCases": [
+            "Cursos en industrias que cambian rápido",
+            "Educadores con múltiples cursos",
+            "Instituciones educativas",
+            "Plataformas de aprendizaje online"
+          ],
+          "n8nNodes": [
+            "Database",
+            "AI Analysis",
+            "Email",
+            "Webhook",
+            "Notification",
+            "Conditional Logic"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-009",
+          "name": "🎤 Generador de Contenido de Video Educativo",
+          "description": "Plataforma que crea videos educativos automáticamente con animaciones y explicaciones.",
+          "functionality": "Convierte texto a video, añade animaciones, genera explicaciones, optimiza para plataformas.",
+          "valueProposition": "Crea videos educativos sin equipamiento costoso, mejora engagement, acelera creación.",
+          "price": 129,
+          "useCases": [
+            "Educadores creando múltiples videos",
+            "Instituciones educativas digitalizándose",
+            "Empresas con programas de capacitación",
+            "Autores creando cursos visuales"
+          ],
+          "n8nNodes": [
+            "Video Generator",
+            "Animation",
+            "Text-to-Speech",
+            "Email",
+            "Database",
+            "Webhook"
+          ],
+          "category": "educacion-formacion"
+        },
+        {
+          "id": "ef-010",
+          "name": "📱 Plataforma de Microlearning",
+          "description": "Sistema que convierte contenido en lecciones cortas optimizadas para móvil.",
+          "functionality": "Convierte contenido en micro-lecciones, optimiza para móvil, rastrea progreso, gamifica aprendizaje.",
+          "valueProposition": "Mejora retención en un 60%, aumenta engagement, se adapta a estilos de vida modernos.",
+          "price": 99,
+          "useCases": [
+            "Educadores alcanzando estudiantes móviles",
+            "Empresas con programas de capacitación",
+            "Plataformas de aprendizaje online",
+            "Cualquier educador buscando mayor engagement"
+          ],
+          "n8nNodes": [
+            "Mobile App API",
+            "Database",
+            "Email",
+            "Webhook",
+            "Analytics",
+            "Notification"
+          ],
+          "category": "educacion-formacion"
+        }
+      ]
+    },
+    {
+      "id": "finanzas-contabilidad",
+      "name": "Finanzas y Contabilidad",
+      "icon": "💰",
+      "description": "Sistemas para automatizar procesos financieros y contables",
+      "systems": [
+        {
+          "id": "fc-001",
+          "name": "📊 Automatizador de Facturación",
+          "description": "Sistema que crea, envía y rastrea facturas automáticamente.",
+          "functionality": "Crea facturas automáticamente, envía por email, rastrea pagos, genera recordatorios, integra pagos.",
+          "valueProposition": "Reduce tiempo de facturación en un 95%, mejora flujo de caja, reduce incobrables.",
+          "price": 79,
+          "useCases": [
+            "Consultores independientes",
+            "Agencias de servicios",
+            "Freelancers",
+            "Pequeñas empresas"
+          ],
+          "n8nNodes": [
+            "Invoice Generator",
+            "Email",
+            "Payment Gateway",
+            "Database",
+            "Webhook",
+            "Spreadsheet"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-002",
+          "name": "💳 Gestor de Gastos Automático",
+          "description": "Plataforma que rastrea gastos automáticamente y categoriza para contabilidad.",
+          "functionality": "Rastrea gastos automáticamente, categoriza, genera reportes, integra con contabilidad.",
+          "valueProposition": "Reduce tiempo de registro de gastos en un 90%, mejora precisión, facilita auditorías.",
+          "price": 67,
+          "useCases": [
+            "Consultores y freelancers",
+            "Pequeñas empresas",
+            "Equipos de ventas con gastos",
+            "Cualquier negocio con muchos gastos"
+          ],
+          "n8nNodes": [
+            "Bank API",
+            "Receipt Scanner",
+            "Database",
+            "Email",
+            "Spreadsheet",
+            "Webhook"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-003",
+          "name": "📈 Analizador de Flujo de Caja",
+          "description": "Sistema que predice flujo de caja y alerta sobre problemas potenciales.",
+          "functionality": "Rastrea ingresos y gastos, predice flujo de caja, alerta sobre problemas, sugiere acciones.",
+          "valueProposition": "Mejora visibilidad financiera, previene problemas de liquidez, facilita planificación.",
+          "price": 119,
+          "useCases": [
+            "Startups en crecimiento",
+            "Pequeñas empresas",
+            "Consultores con ingresos variables",
+            "Cualquier negocio preocupado por liquidez"
+          ],
+          "n8nNodes": [
+            "Bank API",
+            "Database",
+            "Analytics",
+            "Email",
+            "Webhook",
+            "Conditional Logic"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-004",
+          "name": "🧾 Automatizador de Contabilidad",
+          "description": "Plataforma que automatiza procesos contables y genera reportes financieros.",
+          "functionality": "Registra transacciones, genera reportes, calcula impuestos, integra con contadores.",
+          "valueProposition": "Reduce tiempo contable en un 80%, mejora precisión, facilita auditorías.",
+          "price": 149,
+          "useCases": [
+            "Pequeñas empresas",
+            "Startups",
+            "Consultores",
+            "Cualquier negocio necesitando contabilidad"
+          ],
+          "n8nNodes": [
+            "Accounting Software API",
+            "Bank API",
+            "Email",
+            "Database",
+            "Report Generator",
+            "Webhook"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-005",
+          "name": "💰 Gestor de Nómina Automático",
+          "description": "Sistema que automatiza cálculo de nómina, impuestos y distribución de pagos.",
+          "functionality": "Calcula nómina, deducciones, impuestos, genera reportes, distribuye pagos automáticamente.",
+          "valueProposition": "Reduce tiempo de nómina en un 90%, asegura cumplimiento fiscal, mejora satisfacción de empleados.",
+          "price": 139,
+          "useCases": [
+            "Pequeñas empresas con empleados",
+            "Startups escalando",
+            "Empresas con múltiples empleados",
+            "Cualquier empresa con nómina"
+          ],
+          "n8nNodes": [
+            "Payroll Software API",
+            "Bank API",
+            "Email",
+            "Database",
+            "Tax Calculator",
+            "Webhook"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-006",
+          "name": "📊 Generador de Reportes Financieros",
+          "description": "Plataforma que genera reportes financieros automáticamente y los distribuye.",
+          "functionality": "Genera reportes financieros, crea dashboards, distribuye automáticamente, rastrea métricas.",
+          "valueProposition": "Reduce tiempo de reportes en un 95%, mejora visibilidad, facilita toma de decisiones.",
+          "price": 99,
+          "useCases": [
+            "Directivos necesitando visibilidad financiera",
+            "Inversores monitoreando empresas",
+            "Consultores presentando resultados",
+            "Cualquier negocio con múltiples stakeholders"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Analytics",
+            "Report Generator",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-007",
+          "name": "🎯 Planificador de Presupuestos",
+          "description": "Sistema que crea presupuestos automáticamente y rastrea desviaciones.",
+          "functionality": "Crea presupuestos, rastrea gasto real, alerta sobre desviaciones, sugiere ajustes.",
+          "valueProposition": "Mejora control de gastos en un 50%, facilita planificación, previene sobregastos.",
+          "price": 89,
+          "useCases": [
+            "Empresas con múltiples departamentos",
+            "Startups controlando gastos",
+            "Consultores presupuestando proyectos",
+            "Cualquier negocio preocupado por control de gastos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Spreadsheet",
+            "Email",
+            "Webhook",
+            "Conditional Logic",
+            "Analytics"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-008",
+          "name": "🔍 Auditor Automático de Transacciones",
+          "description": "Plataforma que audita automáticamente transacciones y detecta anomalías.",
+          "functionality": "Rastrea transacciones, detecta anomalías, alerta sobre fraude, genera reportes de auditoría.",
+          "valueProposition": "Mejora seguridad financiera, detecta fraude temprano, facilita cumplimiento.",
+          "price": 129,
+          "useCases": [
+            "Empresas preocupadas por fraude",
+            "Organizaciones con requisitos de compliance",
+            "Empresas con múltiples transacciones",
+            "Cualquier negocio necesitando auditoría"
+          ],
+          "n8nNodes": [
+            "Bank API",
+            "Database",
+            "AI Analysis",
+            "Email",
+            "Webhook",
+            "Alert System"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-009",
+          "name": "💳 Gestor de Cobranzas Automático",
+          "description": "Sistema que automatiza seguimiento de pagos pendientes y cobranzas.",
+          "functionality": "Rastrea pagos pendientes, envía recordatorios automáticos, escala cobranzas, rastrea pagos.",
+          "valueProposition": "Mejora tasa de cobranza en un 40%, reduce incobrables, mejora flujo de caja.",
+          "price": 109,
+          "useCases": [
+            "Empresas B2B con muchos clientes",
+            "Agencias de servicios",
+            "Cualquier negocio con pagos a plazo",
+            "Empresas con problemas de cobranza"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Email",
+            "SMS",
+            "Payment Gateway",
+            "Webhook",
+            "Conditional Logic"
+          ],
+          "category": "finanzas-contabilidad"
+        },
+        {
+          "id": "fc-010",
+          "name": "📱 Asesor Financiero Automático",
+          "description": "Plataforma con IA que proporciona asesoramiento financiero personalizado.",
+          "functionality": "Analiza finanzas, proporciona recomendaciones, rastrea progreso, sugiere optimizaciones.",
+          "valueProposition": "Mejora salud financiera, identifica oportunidades de ahorro, optimiza inversiones.",
+          "price": 159,
+          "useCases": [
+            "Emprendedores mejorando finanzas",
+            "Pequeños negocios escalando",
+            "Consultores asesorando clientes",
+            "Cualquier negocio buscando optimizar finanzas"
+          ],
+          "n8nNodes": [
+            "Database",
+            "AI Analysis",
+            "Email",
+            "Webhook",
+            "Analytics",
+            "Notification"
+          ],
+          "category": "finanzas-contabilidad"
+        }
+      ]
+    },
+    {
+      "id": "recursos-humanos",
+      "name": "Recursos Humanos",
+      "icon": "👥",
+      "description": "Sistemas para automatizar procesos de RRHH y gestión de talento",
+      "systems": [
+        {
+          "id": "rh-001",
+          "name": "📋 Gestor de Candidatos Automático",
+          "description": "Sistema que automatiza reclutamiento, desde publicación hasta selección.",
+          "functionality": "Publica ofertas, rastrea candidatos, filtra automáticamente, programa entrevistas, envía actualizaciones.",
+          "valueProposition": "Reduce tiempo de reclutamiento en un 70%, mejora calidad de candidatos, reduce costos.",
+          "price": 119,
+          "useCases": [
+            "Empresas en crecimiento rápido",
+            "Departamentos de RRHH pequeños",
+            "Startups escalando equipo",
+            "Cualquier empresa reclutando frecuentemente"
+          ],
+          "n8nNodes": [
+            "Job Board API",
+            "Email",
+            "Database",
+            "AI Screening",
+            "Calendar",
+            "Webhook"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-002",
+          "name": "🎓 Gestor de Capacitación y Desarrollo",
+          "description": "Plataforma que gestiona programas de capacitación y desarrollo de empleados.",
+          "functionality": "Crea programas de capacitación, rastrea progreso, genera certificados, evalúa impacto.",
+          "valueProposition": "Mejora retención de empleados en un 40%, aumenta productividad, reduce rotación.",
+          "price": 99,
+          "useCases": [
+            "Empresas con programas de desarrollo",
+            "Organizaciones grandes",
+            "Startups invirtiendo en talento",
+            "Cualquier empresa preocupada por retención"
+          ],
+          "n8nNodes": [
+            "Learning Platform API",
+            "Email",
+            "Database",
+            "Certificate Generator",
+            "Webhook",
+            "Analytics"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-003",
+          "name": "⏰ Gestor de Asistencia Automático",
+          "description": "Sistema que rastrea asistencia automáticamente y gestiona ausencias.",
+          "functionality": "Rastrea asistencia, gestiona ausencias, genera reportes, integra con nómina.",
+          "valueProposition": "Reduce tiempo de gestión de asistencia en un 90%, mejora precisión, facilita nómina.",
+          "price": 67,
+          "useCases": [
+            "Empresas con múltiples empleados",
+            "Organizaciones con oficinas",
+            "Cualquier empresa con empleados",
+            "Empresas con equipos distribuidos"
+          ],
+          "n8nNodes": [
+            "Attendance System API",
+            "Email",
+            "Database",
+            "Webhook",
+            "Notification",
+            "Spreadsheet"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-004",
+          "name": "📊 Evaluador de Desempeño Automático",
+          "description": "Plataforma que automatiza evaluaciones de desempeño y feedback.",
+          "functionality": "Crea evaluaciones, recopila feedback, genera reportes, identifica áreas de mejora.",
+          "valueProposition": "Reduce tiempo de evaluaciones en un 80%, mejora objetividad, facilita conversaciones.",
+          "price": 109,
+          "useCases": [
+            "Empresas con múltiples empleados",
+            "Organizaciones grandes",
+            "Startups escalando",
+            "Cualquier empresa con evaluaciones periódicas"
+          ],
+          "n8nNodes": [
+            "Survey Tool API",
+            "Email",
+            "Database",
+            "Analytics",
+            "Webhook",
+            "Report Generator"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-005",
+          "name": "💬 Gestor de Comunicación Interna",
+          "description": "Sistema que centraliza comunicación interna y facilita colaboración.",
+          "functionality": "Centraliza comunicación, facilita colaboración, rastrea anuncios, mejora engagement.",
+          "valueProposition": "Mejora comunicación en un 60%, aumenta engagement, reduce silos organizacionales.",
+          "price": 79,
+          "useCases": [
+            "Empresas con múltiples departamentos",
+            "Organizaciones distribuidas",
+            "Startups escalando",
+            "Cualquier empresa con comunicación compleja"
+          ],
+          "n8nNodes": [
+            "Communication Platform API",
+            "Email",
+            "Webhook",
+            "Database",
+            "Notification",
+            "Analytics"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-006",
+          "name": "🎯 Gestor de Objetivos de Empleados",
+          "description": "Plataforma que define, rastrea y evalúa objetivos de empleados.",
+          "functionality": "Define objetivos, rastrea progreso, facilita check-ins, evalúa cumplimiento.",
+          "valueProposition": "Mejora alineación en un 70%, aumenta productividad, facilita conversaciones.",
+          "price": 89,
+          "useCases": [
+            "Empresas con objetivos claros",
+            "Organizaciones grandes",
+            "Startups escalando",
+            "Cualquier empresa con gestión por objetivos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Email",
+            "Webhook",
+            "Analytics",
+            "Notification",
+            "Conditional Logic"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-007",
+          "name": "🏆 Gestor de Reconocimiento y Recompensas",
+          "description": "Sistema que automatiza reconocimiento de empleados y gestiona recompensas.",
+          "functionality": "Facilita reconocimiento, gestiona recompensas, rastrea engagement, mejora cultura.",
+          "valueProposition": "Mejora satisfacción de empleados en un 50%, aumenta retención, mejora cultura.",
+          "price": 99,
+          "useCases": [
+            "Empresas preocupadas por retención",
+            "Organizaciones grandes",
+            "Startups construyendo cultura",
+            "Cualquier empresa con rotación alta"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Email",
+            "Webhook",
+            "Notification",
+            "Analytics",
+            "Payment Gateway"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-008",
+          "name": "📋 Gestor de Documentos de RRHH",
+          "description": "Plataforma que centraliza documentos de empleados y asegura cumplimiento.",
+          "functionality": "Organiza documentos, rastrea vencimientos, asegura cumplimiento, facilita auditorías.",
+          "valueProposition": "Mejora organización en un 95%, asegura cumplimiento, facilita auditorías.",
+          "price": 79,
+          "useCases": [
+            "Empresas con múltiples empleados",
+            "Organizaciones con requisitos de compliance",
+            "Startups escalando",
+            "Cualquier empresa con documentación compleja"
+          ],
+          "n8nNodes": [
+            "Document Storage API",
+            "Email",
+            "Database",
+            "Webhook",
+            "Notification",
+            "Search"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-009",
+          "name": "🔐 Gestor de Accesos de Empleados",
+          "description": "Sistema que gestiona accesos a sistemas y recursos para empleados.",
+          "functionality": "Gestiona permisos, audita accesos, revoca automáticamente, rastrea cambios.",
+          "valueProposition": "Mejora seguridad, simplifica onboarding/offboarding, asegura cumplimiento.",
+          "price": 109,
+          "useCases": [
+            "Empresas con múltiples sistemas",
+            "Organizaciones con requisitos de compliance",
+            "Startups escalando",
+            "Cualquier empresa preocupada por seguridad"
+          ],
+          "n8nNodes": [
+            "Identity Management API",
+            "Database",
+            "Email",
+            "Webhook",
+            "Audit Log",
+            "Notification"
+          ],
+          "category": "recursos-humanos"
+        },
+        {
+          "id": "rh-010",
+          "name": "📊 Analytics de Talento",
+          "description": "Plataforma que analiza datos de RRHH e identifica tendencias.",
+          "functionality": "Analiza datos de RRHH, identifica tendencias, predice rotación, sugiere acciones.",
+          "valueProposition": "Mejora retención en un 30%, identifica problemas temprano, optimiza estrategia de talento.",
+          "price": 139,
+          "useCases": [
+            "Empresas grandes",
+            "Organizaciones preocupadas por retención",
+            "Startups escalando",
+            "Cualquier empresa con datos de RRHH"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Analytics",
+            "AI Analysis",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "recursos-humanos"
+        }
+      ]
+    },
+    {
+      "id": "atencion-cliente",
+      "name": "Atención al Cliente",
+      "icon": "🎧",
+      "description": "Sistemas para automatizar servicio al cliente y soporte",
+      "systems": [
+        {
+          "id": "ac-001",
+          "name": "🤖 Chatbot de Soporte Inteligente",
+          "description": "IA conversacional que resuelve consultas de clientes automáticamente 24/7.",
+          "functionality": "Responde preguntas, resuelve problemas comunes, escala a agentes cuando es necesario, aprende continuamente.",
+          "valueProposition": "Resuelve el 70% de consultas automáticamente, disponibilidad 24/7, reduce carga de trabajo en un 60%.",
+          "price": 129,
+          "useCases": [
+            "Ecommerce con alto volumen de consultas",
+            "SaaS con soporte técnico",
+            "Empresas de servicios",
+            "Cualquier negocio con muchas consultas repetitivas"
+          ],
+          "n8nNodes": [
+            "AI/Chatbot",
+            "Webhook",
+            "Database",
+            "Email",
+            "Ticket System",
+            "Conditional Logic"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-002",
+          "name": "🎫 Gestor de Tickets Automático",
+          "description": "Sistema que automatiza creación, asignación y seguimiento de tickets de soporte.",
+          "functionality": "Crea tickets automáticamente, asigna según especialidad, rastrea progreso, genera reportes.",
+          "valueProposition": "Reduce tiempo de resolución en un 40%, mejora satisfacción del cliente, mejora transparencia.",
+          "price": 99,
+          "useCases": [
+            "Empresas de software",
+            "Servicios técnicos",
+            "Empresas con soporte al cliente",
+            "Cualquier empresa con muchas consultas"
+          ],
+          "n8nNodes": [
+            "Ticket System API",
+            "Email",
+            "Database",
+            "Webhook",
+            "Notification",
+            "Analytics"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-003",
+          "name": "📞 Enrutador de Llamadas Inteligente",
+          "description": "Sistema que enruta automáticamente llamadas al agente más apropiado.",
+          "functionality": "Enruta llamadas, rastrea tiempos de espera, registra llamadas, genera reportes.",
+          "valueProposition": "Reduce tiempo de espera en un 50%, mejora satisfacción, optimiza utilización de agentes.",
+          "price": 139,
+          "useCases": [
+            "Centros de contacto",
+            "Empresas con múltiples agentes",
+            "Servicios técnicos",
+            "Cualquier empresa con muchas llamadas"
+          ],
+          "n8nNodes": [
+            "Phone System API",
+            "Database",
+            "Email",
+            "Webhook",
+            "Analytics",
+            "Recording"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-004",
+          "name": "📧 Gestor de Emails de Soporte",
+          "description": "Plataforma que automatiza respuesta a emails de soporte y seguimiento.",
+          "functionality": "Responde automáticamente, categoriza, asigna, rastrea, genera respuestas sugeridas.",
+          "valueProposition": "Reduce tiempo de respuesta en un 80%, mejora satisfacción, asegura no se pierdan emails.",
+          "price": 79,
+          "useCases": [
+            "Empresas con soporte por email",
+            "Equipos pequeños de soporte",
+            "Cualquier empresa con muchos emails",
+            "Startups sin equipo de soporte dedicado"
+          ],
+          "n8nNodes": [
+            "Email API",
+            "AI Response Generator",
+            "Database",
+            "Webhook",
+            "Conditional Logic",
+            "Notification"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-005",
+          "name": "⭐ Gestor de Satisfacción del Cliente",
+          "description": "Sistema que rastrea satisfacción del cliente y automatiza acciones de mejora.",
+          "functionality": "Recopila feedback, rastrea NPS, identifica problemas, sugiere mejoras, rastrea progreso.",
+          "valueProposition": "Mejora satisfacción en un 30%, identifica problemas temprano, mejora retención.",
+          "price": 89,
+          "useCases": [
+            "Empresas preocupadas por satisfacción",
+            "Negocios de servicios",
+            "Cualquier empresa con clientes",
+            "Organizaciones buscando mejorar experiencia"
+          ],
+          "n8nNodes": [
+            "Survey Tool API",
+            "Email",
+            "Database",
+            "Analytics",
+            "Webhook",
+            "Notification"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-006",
+          "name": "🔍 Analizador de Sentimiento de Clientes",
+          "description": "Plataforma que analiza sentimiento de clientes en múltiples canales.",
+          "functionality": "Analiza sentimiento, identifica problemas, alerta sobre clientes insatisfechos, sugiere acciones.",
+          "valueProposition": "Identifica problemas temprano, mejora satisfacción, previene churn.",
+          "price": 109,
+          "useCases": [
+            "Empresas preocupadas por satisfacción",
+            "Negocios con presencia en redes sociales",
+            "Cualquier empresa con muchos clientes",
+            "Organizaciones buscando mejorar experiencia"
+          ],
+          "n8nNodes": [
+            "Social Media API",
+            "Email API",
+            "Sentiment Analysis",
+            "Database",
+            "Webhook",
+            "Alert System"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-007",
+          "name": "📚 Base de Conocimiento Automática",
+          "description": "Sistema que crea y mantiene una base de conocimiento automáticamente.",
+          "functionality": "Crea artículos, organiza información, facilita búsqueda, rastrea uso, sugiere mejoras.",
+          "valueProposition": "Reduce consultas repetitivas en un 50%, mejora satisfacción, reduce carga de soporte.",
+          "price": 79,
+          "useCases": [
+            "Empresas con muchas preguntas frecuentes",
+            "SaaS con documentación compleja",
+            "Servicios técnicos",
+            "Cualquier empresa con soporte al cliente"
+          ],
+          "n8nNodes": [
+            "Knowledge Base API",
+            "AI Content Generator",
+            "Database",
+            "Search",
+            "Webhook",
+            "Analytics"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-008",
+          "name": "🎯 Gestor de Feedback de Clientes",
+          "description": "Plataforma que recopila, organiza y actúa sobre feedback de clientes.",
+          "functionality": "Recopila feedback, categoriza, prioriza, asigna, rastrea implementación.",
+          "valueProposition": "Mejora producto basado en feedback real, aumenta satisfacción, mejora retención.",
+          "price": 99,
+          "useCases": [
+            "Startups iterando producto",
+            "Empresas de software",
+            "Cualquier empresa con clientes",
+            "Organizaciones buscando mejorar producto"
+          ],
+          "n8nNodes": [
+            "Survey Tool API",
+            "Database",
+            "Email",
+            "Webhook",
+            "Analytics",
+            "Notification"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-009",
+          "name": "🚀 Gestor de Escalaciones Automático",
+          "description": "Sistema que rastrea y gestiona automáticamente escalaciones de soporte.",
+          "functionality": "Rastrea escalaciones, asigna a especialistas, rastrea progreso, genera alertas.",
+          "valueProposition": "Reduce tiempo de resolución en un 50%, mejora satisfacción, asegura seguimiento.",
+          "price": 89,
+          "useCases": [
+            "Empresas con múltiples niveles de soporte",
+            "Servicios técnicos",
+            "Centros de contacto",
+            "Cualquier empresa con soporte complejo"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Email",
+            "Webhook",
+            "Notification",
+            "Conditional Logic",
+            "Analytics"
+          ],
+          "category": "atencion-cliente"
+        },
+        {
+          "id": "ac-010",
+          "name": "📊 Analytics de Servicio al Cliente",
+          "description": "Plataforma que analiza métricas de servicio al cliente e identifica mejoras.",
+          "functionality": "Rastrea métricas, identifica tendencias, predice problemas, sugiere optimizaciones.",
+          "valueProposition": "Mejora eficiencia en un 30%, identifica cuellos de botella, optimiza recursos.",
+          "price": 119,
+          "useCases": [
+            "Empresas grandes con soporte",
+            "Centros de contacto",
+            "Cualquier empresa preocupada por eficiencia",
+            "Organizaciones buscando mejorar métricas"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Analytics",
+            "AI Analysis",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "atencion-cliente"
+        }
+      ]
+    },
+    {
+      "id": "analisis-reportes",
+      "name": "Análisis y Reportes",
+      "icon": "📊",
+      "description": "Sistemas para recopilar, analizar y visualizar datos empresariales",
+      "systems": [
+        {
+          "id": "ar-001",
+          "name": "📈 Generador de Dashboards Automático",
+          "description": "Plataforma que crea dashboards interactivos automáticamente a partir de datos.",
+          "functionality": "Crea dashboards, integra múltiples fuentes, actualiza en tiempo real, permite customización.",
+          "valueProposition": "Reduce tiempo de creación de dashboards en un 90%, proporciona visibilidad en tiempo real.",
+          "price": 119,
+          "useCases": [
+            "Directivos necesitando visibilidad",
+            "Equipos de marketing midiendo performance",
+            "Empresas con múltiples fuentes de datos",
+            "Cualquier organización con datos complejos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "API Integration",
+            "Visualization",
+            "Email",
+            "Webhook",
+            "Scheduled Report"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-002",
+          "name": "🔍 Analizador de Datos Automático",
+          "description": "Sistema que analiza datos automáticamente e identifica insights significativos.",
+          "functionality": "Analiza datos, identifica patrones, detecta anomalías, sugiere acciones.",
+          "valueProposition": "Identifica insights 10x más rápido, mejora toma de decisiones, reduce tiempo de análisis.",
+          "price": 139,
+          "useCases": [
+            "Empresas con muchos datos",
+            "Equipos de análisis pequeños",
+            "Startups escalando",
+            "Cualquier empresa buscando insights"
+          ],
+          "n8nNodes": [
+            "Database",
+            "AI Analysis",
+            "Statistics",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-003",
+          "name": "📊 Generador de Reportes Personalizados",
+          "description": "Plataforma que genera reportes personalizados automáticamente según necesidades.",
+          "functionality": "Crea reportes personalizados, distribuye automáticamente, rastrea vistas, permite customización.",
+          "valueProposition": "Reduce tiempo de reportes en un 95%, asegura consistencia, facilita toma de decisiones.",
+          "price": 99,
+          "useCases": [
+            "Directivos necesitando reportes regulares",
+            "Consultores presentando resultados",
+            "Empresas con múltiples stakeholders",
+            "Cualquier organización con reportes complejos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Report Generator",
+            "Email",
+            "PDF Generator",
+            "Webhook",
+            "Scheduled Report"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-004",
+          "name": "🎯 Rastreador de KPIs Automático",
+          "description": "Sistema que rastrea KPIs automáticamente y alerta sobre desviaciones.",
+          "functionality": "Rastrea KPIs, alerta sobre desviaciones, genera reportes, sugiere acciones.",
+          "valueProposition": "Mejora visibilidad de KPIs, acelera toma de decisiones, asegura cumplimiento de objetivos.",
+          "price": 89,
+          "useCases": [
+            "Empresas con objetivos claros",
+            "Directivos monitoreando performance",
+            "Equipos de ventas con metas",
+            "Cualquier organización con KPIs"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Email",
+            "Webhook",
+            "Conditional Logic",
+            "Notification",
+            "Analytics"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-005",
+          "name": "💡 Generador de Insights Automático",
+          "description": "Plataforma con IA que genera insights automáticamente a partir de datos.",
+          "functionality": "Analiza datos, genera insights, sugiere acciones, rastrea impacto.",
+          "valueProposition": "Identifica oportunidades de negocio, mejora toma de decisiones, aumenta ingresos.",
+          "price": 149,
+          "useCases": [
+            "Empresas con muchos datos",
+            "Equipos de análisis pequeños",
+            "Startups buscando crecimiento",
+            "Cualquier empresa buscando ventaja competitiva"
+          ],
+          "n8nNodes": [
+            "Database",
+            "AI Analysis",
+            "Machine Learning",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-006",
+          "name": "📉 Predictor de Tendencias",
+          "description": "Sistema que predice tendencias futuras basado en datos históricos.",
+          "functionality": "Analiza datos históricos, predice tendencias, sugiere estrategias, rastrea precisión.",
+          "valueProposition": "Predice tendencias 2-4 semanas antes, mejora planificación, reduce riesgo.",
+          "price": 159,
+          "useCases": [
+            "Empresas en industrias volátiles",
+            "Equipos de planificación",
+            "Startups escalando",
+            "Cualquier empresa buscando anticiparse al mercado"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Machine Learning",
+            "Time Series Analysis",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-007",
+          "name": "🔗 Integrador de Múltiples Fuentes de Datos",
+          "description": "Plataforma que integra datos de múltiples fuentes automáticamente.",
+          "functionality": "Integra múltiples fuentes, limpia datos, normaliza, crea vista unificada.",
+          "valueProposition": "Reduce tiempo de integración en un 90%, asegura datos consistentes, facilita análisis.",
+          "price": 119,
+          "useCases": [
+            "Empresas con múltiples sistemas",
+            "Organizaciones grandes",
+            "Startups escalando",
+            "Cualquier empresa con datos dispersos"
+          ],
+          "n8nNodes": [
+            "Multiple API Integrations",
+            "Data Transform",
+            "Database",
+            "Email",
+            "Webhook",
+            "Validation"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-008",
+          "name": "📋 Generador de Auditorías de Datos",
+          "description": "Sistema que audita automáticamente calidad y consistencia de datos.",
+          "functionality": "Audita datos, identifica problemas, genera reportes, sugiere correcciones.",
+          "valueProposition": "Mejora calidad de datos en un 80%, facilita cumplimiento, mejora análisis.",
+          "price": 99,
+          "useCases": [
+            "Empresas con requisitos de compliance",
+            "Organizaciones grandes",
+            "Cualquier empresa preocupada por calidad de datos",
+            "Empresas con muchas fuentes de datos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Data Validation",
+            "Email",
+            "Report Generator",
+            "Webhook",
+            "Alert System"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-009",
+          "name": "🎨 Visualizador de Datos Avanzado",
+          "description": "Plataforma que crea visualizaciones avanzadas automáticamente.",
+          "functionality": "Crea visualizaciones, permite interacción, exporta en múltiples formatos, personaliza.",
+          "valueProposition": "Comunica datos 10x más efectivamente, facilita comprensión, mejora presentaciones.",
+          "price": 109,
+          "useCases": [
+            "Consultores presentando datos",
+            "Equipos de marketing",
+            "Empresas con datos complejos",
+            "Cualquier organización presentando datos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "Visualization",
+            "Export",
+            "Email",
+            "Webhook",
+            "Interactive Dashboard"
+          ],
+          "category": "analisis-reportes"
+        },
+        {
+          "id": "ar-010",
+          "name": "🤖 Asistente de Análisis con IA",
+          "description": "IA conversacional que responde preguntas sobre datos automáticamente.",
+          "functionality": "Responde preguntas sobre datos, genera análisis, sugiere acciones, aprende continuamente.",
+          "valueProposition": "Democratiza acceso a análisis, reduce tiempo de consultas, mejora toma de decisiones.",
+          "price": 139,
+          "useCases": [
+            "Empresas con datos complejos",
+            "Equipos sin analistas dedicados",
+            "Startups escalando",
+            "Cualquier organización con muchas preguntas sobre datos"
+          ],
+          "n8nNodes": [
+            "Database",
+            "AI/Chatbot",
+            "Query Engine",
+            "Email",
+            "Webhook",
+            "Visualization"
+          ],
+          "category": "analisis-reportes"
+        }
+      ]
+    },
+    {
+      "id": "integraciones-empresariales",
+      "name": "Integraciones Empresariales",
+      "icon": "🔗",
+      "description": "Sistemas para integrar y sincronizar múltiples aplicaciones empresariales",
+      "systems": [
+        {
+          "id": "ie-001",
+          "name": "🔄 Sincronizador de CRM Automático",
+          "description": "Sistema que sincroniza automáticamente datos entre CRM y otras aplicaciones.",
+          "functionality": "Sincroniza datos en tiempo real, evita duplicados, mantiene consistencia, rastrea cambios.",
+          "valueProposition": "Reduce entrada manual de datos en un 95%, asegura datos consistentes, mejora eficiencia.",
+          "price": 99,
+          "useCases": [
+            "Empresas con múltiples sistemas",
+            "Equipos de ventas",
+            "Organizaciones grandes",
+            "Cualquier empresa con CRM"
+          ],
+          "n8nNodes": [
+            "CRM API",
+            "Multiple Platform APIs",
+            "Data Transform",
+            "Webhook",
+            "Database",
+            "Conditional Logic"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-002",
+          "name": "📦 Integrador de Ecommerce Omnicanal",
+          "description": "Plataforma que integra múltiples canales de ecommerce automáticamente.",
+          "functionality": "Sincroniza inventario, órdenes, precios, clientes, evita sobreventa.",
+          "valueProposition": "Escala a múltiples canales sin complejidad, evita sobreventa, centraliza operaciones.",
+          "price": 139,
+          "useCases": [
+            "Negocios vendiendo en múltiples canales",
+            "Retailers con tienda física y online",
+            "Distribuidores",
+            "Cualquier empresa escalando a nuevos canales"
+          ],
+          "n8nNodes": [
+            "Multiple Ecommerce APIs",
+            "Database",
+            "Inventory Management",
+            "Webhook",
+            "Conditional Logic",
+            "Email"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-003",
+          "name": "💼 Integrador de Sistemas de Gestión",
+          "description": "Sistema que integra ERP, CRM, contabilidad y otros sistemas automáticamente.",
+          "functionality": "Integra múltiples sistemas, sincroniza datos, elimina silos, mejora eficiencia.",
+          "valueProposition": "Reduce complejidad de múltiples sistemas, mejora eficiencia en un 40%, facilita escalado.",
+          "price": 179,
+          "useCases": [
+            "Empresas grandes con múltiples sistemas",
+            "Organizaciones complejas",
+            "Startups escalando",
+            "Cualquier empresa con sistemas dispersos"
+          ],
+          "n8nNodes": [
+            "ERP API",
+            "CRM API",
+            "Accounting API",
+            "Database",
+            "Data Transform",
+            "Webhook"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-004",
+          "name": "📧 Integrador de Comunicación Omnicanal",
+          "description": "Plataforma que integra email, SMS, WhatsApp, redes sociales automáticamente.",
+          "functionality": "Centraliza comunicación, sincroniza contactos, rastrea conversaciones, mejora respuesta.",
+          "valueProposition": "Mejora experiencia del cliente, reduce tiempo de respuesta, centraliza comunicación.",
+          "price": 119,
+          "useCases": [
+            "Empresas con múltiples canales de comunicación",
+            "Equipos de servicio al cliente",
+            "Agencias de marketing",
+            "Cualquier empresa con comunicación compleja"
+          ],
+          "n8nNodes": [
+            "Email API",
+            "SMS API",
+            "WhatsApp API",
+            "Social Media API",
+            "Database",
+            "Webhook"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-005",
+          "name": "💳 Integrador de Pagos Múltiples",
+          "description": "Sistema que integra múltiples pasarelas de pago automáticamente.",
+          "functionality": "Integra múltiples pasarelas, sincroniza transacciones, rastrea pagos, mejora reconciliación.",
+          "valueProposition": "Reduce complejidad de pagos, mejora reconciliación, escala a múltiples pasarelas.",
+          "price": 109,
+          "useCases": [
+            "Ecommerce con múltiples pasarelas",
+            "Plataformas de pago",
+            "Empresas internacionales",
+            "Cualquier empresa con pagos complejos"
+          ],
+          "n8nNodes": [
+            "Payment Gateway APIs",
+            "Database",
+            "Reconciliation",
+            "Email",
+            "Webhook",
+            "Conditional Logic"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-006",
+          "name": "📊 Integrador de Datos Empresariales",
+          "description": "Plataforma que integra datos de múltiples fuentes para análisis centralizado.",
+          "functionality": "Integra múltiples fuentes, limpia datos, crea data warehouse, facilita análisis.",
+          "valueProposition": "Centraliza datos, mejora análisis, reduce tiempo de reportes, facilita insights.",
+          "price": 149,
+          "useCases": [
+            "Empresas grandes con múltiples fuentes",
+            "Organizaciones complejas",
+            "Startups escalando",
+            "Cualquier empresa con datos dispersos"
+          ],
+          "n8nNodes": [
+            "Multiple Data Source APIs",
+            "Data Transform",
+            "Database",
+            "Data Warehouse",
+            "Webhook",
+            "ETL"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-007",
+          "name": "🔐 Integrador de Identidad y Acceso",
+          "description": "Sistema que integra múltiples sistemas de identidad y acceso automáticamente.",
+          "functionality": "Sincroniza identidades, gestiona accesos, audita, asegura cumplimiento.",
+          "valueProposition": "Mejora seguridad, simplifica gestión de accesos, asegura cumplimiento.",
+          "price": 129,
+          "useCases": [
+            "Empresas con múltiples sistemas",
+            "Organizaciones con requisitos de compliance",
+            "Startups escalando",
+            "Cualquier empresa preocupada por seguridad"
+          ],
+          "n8nNodes": [
+            "Identity Management APIs",
+            "Database",
+            "Audit Log",
+            "Email",
+            "Webhook",
+            "Conditional Logic"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-008",
+          "name": "📱 Integrador de Aplicaciones Móviles",
+          "description": "Plataforma que integra aplicaciones móviles con sistemas backend automáticamente.",
+          "functionality": "Sincroniza datos, gestiona APIs, rastrea uso, facilita escalado.",
+          "valueProposition": "Reduce tiempo de desarrollo, facilita escalado, mejora experiencia del usuario.",
+          "price": 119,
+          "useCases": [
+            "Empresas con aplicaciones móviles",
+            "Startups de apps",
+            "Cualquier empresa con presencia móvil",
+            "Organizaciones digitalizándose"
+          ],
+          "n8nNodes": [
+            "Mobile App APIs",
+            "Backend APIs",
+            "Database",
+            "Webhook",
+            "Push Notifications",
+            "Analytics"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-009",
+          "name": "🚀 Integrador de Herramientas de Marketing",
+          "description": "Sistema que integra múltiples herramientas de marketing automáticamente.",
+          "functionality": "Integra herramientas, sincroniza datos, rastrea campañas, mejora ROI.",
+          "valueProposition": "Centraliza marketing, mejora ROI, reduce tiempo de gestión, facilita análisis.",
+          "price": 99,
+          "useCases": [
+            "Agencias de marketing",
+            "Equipos de marketing grandes",
+            "Startups escalando marketing",
+            "Cualquier empresa con múltiples herramientas"
+          ],
+          "n8nNodes": [
+            "Marketing Platform APIs",
+            "Database",
+            "Analytics",
+            "Email",
+            "Webhook",
+            "Data Transform"
+          ],
+          "category": "integraciones-empresariales"
+        },
+        {
+          "id": "ie-010",
+          "name": "🔧 Plataforma de Integración Personalizada",
+          "description": "Plataforma que permite crear integraciones personalizadas sin código.",
+          "functionality": "Crea integraciones sin código, rastrea flujos, audita, facilita mantenimiento.",
+          "valueProposition": "Reduce tiempo de integración en un 90%, no requiere desarrolladores, facilita escalado.",
+          "price": 159,
+          "useCases": [
+            "Empresas sin equipo técnico",
+            "Startups escalando rápidamente",
+            "Cualquier empresa con necesidades de integración",
+            "Organizaciones buscando agilidad"
+          ],
+          "n8nNodes": [
+            "n8n Core",
+            "Multiple APIs",
+            "Database",
+            "Webhook",
+            "Conditional Logic",
+            "Error Handling"
+          ],
+          "category": "integraciones-empresariales"
+        }
+      ]
+    }
+  ],
+  "favorites": []
+}
